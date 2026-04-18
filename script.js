@@ -28,7 +28,7 @@ fetch('topics.json')
       listEl.appendChild(li);
     });
 
-    // --- التعديل الجديد: التحقق من الرابط عند فتح الصفحة ---
+    // --- التحقق من الرابط عند فتح الصفحة ---
     checkHashOnLoad();
   })
   .catch(err => console.error('فشل تحميل topics.json:', err));
